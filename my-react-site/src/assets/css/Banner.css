@@ -1,0 +1,24 @@
+.SectionBanner {
+    width: 50%;
+    /* Make it take up the full width */
+    height: 50%;
+    /* Set the height */
+    display: flex;
+    /* Use flexbox for content alignment (optional) */
+    justify-content: center;
+    /* Center the image horizontally (optional)*/
+    align-items: center;
+    /* Center the image vertically (optional)*/
+    overflow: hidden;
+    /* If the image is too big for the div, it will cut it*/
+}
+
+.apropos-banner {
+    max-width: 100%;
+    /* Ensure image doesn't exceed container width*/
+    max-height: 100%;
+    /* Ensure image doesn't exceed container height*/
+    object-fit: contain;
+    /* Maintain aspect ratio and contain within the box. use cover for cover all the space and crop the image */
+
+}

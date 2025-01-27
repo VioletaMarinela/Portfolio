@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import logo from './logo.webp';
+import Banner from './components/banner'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Banner />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save MARYYY
