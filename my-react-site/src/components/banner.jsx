@@ -1,13 +1,12 @@
 import React from 'react';
-import Logoblack from '../assets/img/logoblackwhite.webp';
-import Portret from '../assets/img/portret.jpg';
+import Logobanner from '../assets/img/logobanner.webp';
 
 import '../assets/css/Banner.css';
+
 const Banner = () => {
     return (
         <section className='SectionBanner'>
-            <img src={Portret} alt="Portret" className="SectionBanner" />
-            <img src={Logoblack} alt="Logo" className="SectionBanner" />
+            <img src={Logobanner} alt="Logobanner" className="SectionBanner" />
         </section>
     );
 };
